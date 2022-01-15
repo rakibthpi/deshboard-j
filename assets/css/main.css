@@ -1,0 +1,746 @@
+
+/*     font-family: 'Poppins', sans-serif;     */
+body{
+	font-family: 'TT Norms' !important;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+i{
+	color: #555555;
+}
+p{
+	line-height: 1.4;
+}
+h4{
+	font-size: 24px;
+	color: #3D3838;
+}
+h5 {
+	font-size: 20px;
+	color: #2D2926;
+}
+.btn_all_style {
+	color: #008248;
+	display: inline-block;
+	background: #E7F4EE;
+	border-radius: 50px;
+	padding: 7px 20px;
+	transition: .3s;
+}
+.btn_all_style:hover{
+	color:#fff !important;
+	background: #008248;
+}
+/*=========================== Start Dashboard (Edit) =============================*/
+.noti_red{
+	position: relative;
+}
+.noti_red_posi {
+	position: absolute;
+	top: 11px;
+	right: 12px;
+	width: 7px;
+	height: 7px;
+	background: red;
+	border-radius: 50%;
+}
+.mu_profile_items_right {
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 10px; */
+	padding-left: 10px;
+}
+.mu_profile_items{
+	display: flex;
+	align-items: center;
+}
+.mu_mes_not_pro_dashboard .navbar-nav {
+	align-items: center;
+}
+.main-content {
+	padding-left: 250px;
+	padding-right: 0px;
+	padding-top: 69px;
+	width: 100%;
+	position: relative;
+}
+.sidebar-mini .main-content, .sidebar-mini .main-footer {
+	padding-left: 65px;
+}
+.main-sidebar .sidebar-menu li a {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 65px;
+	padding: 0 25px;
+	width: 100%;
+	letter-spacing: 0.3px;
+	color: #60686f;
+	font-weight: 600;
+	text-decoration: none;
+	font-family: 'TT Norms';
+	font-weight: 500;
+}
+.main-sidebar .sidebar-menu li a i {
+	width: 28px;
+	font-size: 18px;
+	margin-right: 10px;
+	text-align: center;
+}
+.main-sidebar .sidebar-menu li a:hover,
+.main-sidebar .sidebar-menu li a:hover i {
+	color: #008248;
+}
+.theme-white .navbar {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.main-sidebar {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 250px;
+	background-color: #fff;
+	z-index: 880;
+	left: 0;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	z-index: 33333;
+}
+.theme-white .navbar .form-inline .btn {
+	background-color: transparent;
+	margin-top: 3px;
+}
+.theme-white .navbar .form-inline .btn i{
+	color: rgba(147, 145, 144, 0.5);
+	font-size: 16px;
+
+}
+.theme-white .navbar .form-inline .form-control {
+	background-color: transparent;
+	margin-left: -29px;
+	font-size: 16px;
+}
+.search-element input::placeholder{
+	color: #C9C8C7 !important;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.navbar .nav-link.nav-link-user .user-img-radious-style {
+	border-radius: 50%;
+	box-shadow: none;
+}
+.mu_profile_items_right1{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #555555;
+}
+.mu_profile_items_right span {
+	display: block;
+	line-height: 17px;
+	margin-left: 0px !important;
+}
+.mu_profile_items_right2{
+	color: #555555;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.mu_profile_items_right2 i {
+	font-size: 13px !important;
+	margin-left: 5px !important;
+}
+.mu_profile_items_left img {
+	width: 45px !important;
+}
+.mu_notific_pos {
+	position: relative;
+	margin: 0px 29px;
+	color: #008248;
+}
+.mu_notific_pos::before {
+	width: ;
+	position: absolute;
+	content: "";
+	width: 160%;
+	height: 172%;
+	background: #E7F4EE;
+	top: -15px;
+	left: -13px;
+}
+.mu_evant_create_btn a {
+	background: #008248;
+	border-radius: 90px;
+	color: #FFF;
+	padding: 9px 20px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+}
+.mu_evant_create_btn a:hover{
+	color: #FFF;
+	text-decoration: none;
+	background: #0fa663;
+}
+.mu_evant_create_btn a i{
+	font-size: 18px;
+	color: #FFF;
+}
+.mu_evant_create_btn a span{
+	margin-left: 10px;
+}
+.mu_profile_items_a_design a {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ECECEC;
+}
+.mu_profile_items_a_design a:last-child{
+	border-bottom: none;
+}
+.mu_profile_items_a_design a i {
+	background: #E7F4EE;
+	width: 35px !important;
+	height: 35px !important;
+	border-radius: 50%;
+	display: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dropdown-list .dropdown-list-message .dropdown-item {
+	display: flex;
+	padding-top: 4px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0px;
+	padding:10px 10px 10px 20px;
+}
+.mu_not_light_font{
+	font-weight: 300;
+}
+.dropdown-list .dropdown-list-content {
+	height: auto;
+	overflow: hidden;
+	padding: 10px 0px;f
+}
+.logo-name img {
+	width: 115px;
+}
+.footer-left a {
+	color: #888888;
+}
+.footer_right ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.footer_right ul li a {
+	color: #888888;
+	margin-left: 20px;
+}
+.mu_footer_main{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*=========================== End Dashboard (Edit) =============================*/
+
+.vh {
+	position: absolute !important; 
+	clip: rect(1px, 1px, 1px, 1px); 
+	padding: 0 !important; 
+	border: 0 !important; 
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+.checkbox_styel_popup {
+	padding-left: 32px;
+	position: relative;
+}
+.checkbox_styel_popup label::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid rgba(75, 101, 132, 0.3);
+	display: inline-block;
+	margin-right: 16px;
+	border-radius: 50%;
+	margin-top: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.checkbox_styel_popup input[type="checkbox"]:checked ~ label:before {
+	background: #008248 no-repeat center; 
+	background-size: 12px 12px; 
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ1LjcwMSA0NS43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NS43MDEgNDUuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMC42ODcsMzguMzMyYy0yLjA3MiwyLjA3Mi01LjQzNCwyLjA3Mi03LjUwNSwwTDEuNTU0LDI2LjcwNGMtMi4wNzItMi4wNzEtMi4wNzItNS40MzMsMC03LjUwNCAgICBjMi4wNzEtMi4wNzIsNS40MzMtMi4wNzIsNy41MDUsMGw2LjkyOCw2LjkyN2MwLjUyMywwLjUyMiwxLjM3MiwwLjUyMiwxLjg5NiwwTDM2LjY0Miw3LjM2OGMyLjA3MS0yLjA3Miw1LjQzMy0yLjA3Miw3LjUwNSwwICAgIGMwLjk5NSwwLjk5NSwxLjU1NCwyLjM0NSwxLjU1NCwzLjc1MmMwLDEuNDA3LTAuNTU5LDIuNzU3LTEuNTU0LDMuNzUyTDIwLjY4NywzOC4zMzJ6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+.checkbox_styel_popup input[type="checkbox"]:focus ~ label {color: #DDD;}
+
+/*=========================== 4. Number page Body deshboard main area start  =============================*/
+.section-body {
+	
+}
+.deshboard_main_body_cotainer {
+	padding-top: 26px;
+}
+.deshboard_main_body_your_events_area {
+	padding: 8px 30px;
+}
+.deshboard_main_text_area {
+	display: flex;
+	height: 100%;
+}
+.deshboard_main_body_area{
+	flex: 0 0 78%;
+}
+.single_btn_area {
+	background: #008248;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 20px;
+	border-radius: 50px;
+	border: 1px solid #008248;
+}
+.single_btn_area:hover{
+	background-color: #fff;
+	color:#008248;
+}
+/* Deshboard header style start  */
+.deshboard_main_body_text_header_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 16px;
+
+}
+.deshboard_main_body_area,
+.deshboard_main_account_main_area {
+	padding: 30px 30px 0 30px;
+}
+.deshboard_main_body_text_header_area_right a {
+	background: #0082481c;
+	color: #008248;
+	display: inline-block;
+	padding: 3px 16px;
+	border-radius: 20px;
+	transition: .3s;
+}
+.deshboard_main_body_text_header_area_right a:hover{
+	text-decoration: underline;
+	color: #008248;
+}
+/* Deshboard header style end  */
+/* Single item start */
+.deshboard_main_body_single_item_area {
+	background: #fff;
+	border-radius: 12px;
+	height: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.deshboard_main_body_single_item_area_ex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deshboard_main_body_single_item_area_ex a {
+	display:inline-block ;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.deshboard_main_body_single_item_area_ex a img {
+	height: 70px;
+	width: 70px;
+}
+.deshboard_main_body_single_item_area > img {
+	width: 100%;
+	height: 159px;
+	object-fit: cover;
+	border-radius: 12px 12px 0 0;
+}
+.deshboard_main_body_single_item_area_sub_text p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: #2D2926;
+	padding-bottom: 7px;
+}
+.deshboard_main_body_single_item_area_sub_text {
+	padding: 5px 5px 23px 5px;
+	text-align: center;
+}
+.deshboard_main_body_single_item_area_sub_text ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deshboard_main_body_single_item_area_sub_text ul li a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0 -6px;
+	border-radius: 50%;
+	background: #E7F4EE;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} 
+.deshboard_main_body_single_item_area_sub_text ul li a img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+/* Duel start  */
+.deshboard_main_middle_single_item_area {
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+.deshboard_main_middle_single_item_area .deshboard_main_body_single_item_area{
+	box-shadow: none !important;
+}
+.deshboard_main_middle_single_item_area .deshboard_main_body_single_item_area_sub_text {
+	padding: 5px 5px 6px 5px;
+}
+/* Menu area start  */
+.deshboard_main_footer_menu_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 4px;
+}
+
+/* Single item start */
+
+
+/* Right profile area start  */
+
+.deshboard_main_text_right_profile_area {
+	flex: 0 0 22%;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	background: #fff;
+	padding: 50px 20px 20px 30px;
+}
+.deshboard_help_main_text_area .deshboard_main_text_right_profile_area {
+	padding: 0px 0px 20px 0px;
+}
+.deshboard_main_help_right_side_area ul li a {
+	color: #000;
+	border-bottom: 1px solid #EAEAEA;
+	padding: 10px 20px;
+	display: block;
+	transition: .3s;
+	border-left: 3px solid transparent;
+}
+.deshboard_main_help_right_side_area ul li a:hover,
+.deshboard_main_help_right_side_area ul li a.active{
+	color: #008248;
+	border-left: 3px solid #008248;
+}
+.deshboard_main_help_right_side_area ul li:last-child a{
+	border-bottom: 0;
+}
+.deshboard_main_text_right_protfolio_area_sub_height h5 {
+	padding-bottom: 17px;
+}
+.deshboard_main_checkbox_area_start .checkbox_styel_popup label{
+	color: #2D2926;
+	line-height: 2.3;
+	font-weight: 500;
+}
+
+/*=========================== 4. Number page Body deshboard main area End  =============================*/
+
+/*=========================== 5. Number page Body deshboard main area End  =============================*/
+.row.deshboard_main_your_events_gap_area {
+	row-gap: 25px;
+}
+.deshboard_main_account_nav_menu_area {
+	display: flex;
+	justify-content: space-between;
+}
+.deshboard_main_text_account_area h4 {
+	padding-bottom: 20px;
+}
+/* Profile area start  */
+.deshboard_main_text_account_single_profile_area {
+	display: flex;
+	background: #fff;
+	padding: 40px 30px;
+	margin: 0px 0 40px 0px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.deshboard_main_text_account_single_main_profile_area h6 {
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 14px;
+}
+.deshboard_main_text_account_single_main_profile_area p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #3D3838;
+}
+.deshboard_main_text_account_single_main_profile_area {
+	flex: 0 0 30%;
+	text-align: center;
+}
+.deshboard_main_text_account_single_main_profile_area img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.deshboard_main_text_account_single_profile_edit_area {
+	flex: 0 0 70%;
+}
+.deshboard_main_text_account_single_profile_edit_area_flex {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #EAEAEA;
+}
+.deshboard_main_text_account_single_profile_edit_area_flex:last-child{
+	border-bottom: 0px;
+}
+.deshboard_main_text_account_single_profile_edit_area_flex_sub{
+	flex: 0 0 30%;
+}
+.deshboard_main_text_account_single_profile_edit_area_left img {
+	width: 20px;
+	height: auto;
+	margin-right: 10px;
+}
+.deshboard_main_text_account_single_profile_edit_area_right {
+	flex: 0 0 70%;
+}
+.deshboard_main_text_account_single_profile_edit_area_right_flex a i{
+	color: #008248;
+	display: inline-block;
+	font-size: 17px;
+}
+.deshboard_main_text_account_single_profile_edit_area_left {
+	display: flex;
+	align-items: center;
+}
+.deshboard_main_text_account_single_profile_edit_area_right_flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Right Card area start  */
+.deshboard_main_text_account_single_password_card_area {
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px 20px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.deshboard_main_text_account_single_password_card_area:nth-child(2){
+	margin-top: 25px;
+}
+.deshboard_main_text_account_single_password_card_area p {
+	line-height: 1.3;
+}
+.deshboard_main_text_account_single_password_card_area p span{
+	font-size: 32px;
+	font-weight: 600;
+	color: #2D2926;
+}
+.deshboard_main_text_account_single_password_card_area h5 {
+	padding-bottom: 15px;
+}
+.deshboard_main_text_account_single_password_card_area a{
+	margin-top: 25px;
+}
+.btn_all_style i{
+	color: #008248;
+	padding-right: 5px;
+}
+.btn_all_style:hover i{
+	color: #fff;
+}
+.btn_all_style_active{
+	background: #008248;
+	color: #fff;
+	border: 1px solid #008248;
+}
+.btn_all_style_active:hover{
+	background: #E7F4EE;
+	color: #008248 !important;
+}
+.editaccount_change_password_area form input {
+	width: 100%;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-top: 15px;
+	padding: 4px 13px;
+	font-size: 15px;
+	color: #8A8A8A;
+}
+.editaccount_change_password_area form input:focus{
+	box-shadow: none;
+	outline: none;
+}
+
+/*=========================== 5. Number page Body deshboard main area End  =============================*/
+
+/*=========================== 6. Help Banner Main area start   =============================*/
+/* according page area start  */
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+.myaccordion .card-header {
+	border-bottom-color: #EDEFF0;
+	background: #E7F4EE;
+}
+.d-flex.align-items-center.justify-content-between.btn.btn-link.collapsed{
+	color: #000;
+}
+.card .card-header .btn:hover, .card .card-header .btn:focus {
+	color: #008248 !important;
+}
+.d-flex.align-items-center.justify-content-between.btn.btn-link span i{
+	color: #008248 !important;
+}
+.myaccordion .fa-stack {
+	font-size: 18px;
+	position: absolute;
+	right: 19px;
+}
+.card .card-header .btn {
+	font-size: 15px;
+}
+.card .card-header .btn:hover,
+.card .card-header .btn:focus {
+	box-shadow: none;
+	background: transparent;
+	text-decoration: none;
+}
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+.myaccordion li + li {
+  margin-top: 10px;
+}
+.card {
+	margin-bottom: 16px;
+	box-shadow: none !important;
+	background: transparent;
+}
+#collapseOne {
+	background: #f2ebeb;
+	margin-top: 20px;
+	background: transparent;
+	box-shadow:none;
+	border: 1px solid #E7E7E7;
+}
+.card-body h6{
+	font-family: TT Norms Pro;
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 20px;
+}
+.card-body p{
+	font-family: TT Norms Pro;
+}
+.card-body ul{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.card-body ul li{
+	line-height: 1.7;
+	list-style-type: decimal;
+	color: #555555;
+}
+/* According end  */
+
+.deshboard_help_main_banner_text_area{
+	background: url('../img/deshboard/banner.svg') no-repeat scroll 0 0 / cover;
+	padding: 90px 0;
+}
+.deshboard_help_main_area {
+	overflow: hidden;
+}
+.deshboard_main_help_area_header {
+	max-width: 488px;
+}
+.deshboard_main_help_area_header h4{
+	color: #008248;
+	padding-bottom: 10px;
+}
+.deshboard_main_help_according_area {
+	padding-top: 30px;
+}
+.deshboard_help_banner_area p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.deshboard_help_search_area form{
+	position: relative;
+}
+.deshboard_help_search_area form input {
+	width: 100%;
+	height: 60px;
+	top: 330px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 0 45px;
+	font-size: 16px;
+}
+.deshboard_help_search_area form input:focus{
+	box-shadow: none;
+	outline: none;
+}
+.deshboard_help_search_area form button {
+	position: absolute;
+	left: 14px;
+	top: 0;
+	bottom: -1px;
+	border: none;
+	background: transparent;
+	font-size: 15px;
+	color: #C9C8C7;
+}
+.deshboard_help_search_area form button i {
+	color: #94908D;
+}
+
+/*=========================== 6. Help Banner Main area End   =============================*/
+
+
+
